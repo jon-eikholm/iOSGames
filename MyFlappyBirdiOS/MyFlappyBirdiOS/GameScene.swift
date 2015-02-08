@@ -33,7 +33,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         createBird();
         createGround();
         
-        //An SKAction object is an action that is executed by a node in the scene (SKScene).
+        //An SKAction object is an action that is executed on a node in the scene (SKScene).
         //runBlock() creates an action that executes a block.
         var spawnPipes = SKAction.runBlock{ () -> Void in
             self.createPipes();
